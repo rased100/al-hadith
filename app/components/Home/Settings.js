@@ -19,7 +19,7 @@ const Settings = () => {
       </button>
 
       <div
-        className={`fixed top-0 right-0 w-[350px] h-full bg-white z-50 transition-all duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 w-[360px] h-full bg-white z-50 transition-all duration-300 ease-in-out ${
           toggle ? "opacity-100 translate-x-0" : "opacity-0 translate-x-full"
         }`}
       >

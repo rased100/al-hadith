@@ -13,7 +13,7 @@ import Settings from "./Settings";
 
 const Navbar = () => {
   return (
-    <header className="bg-white h-[80px] z-20 fixed top-0 w-full flex items-center justify-between">
+    <div className="bg-white h-[80px] z-20 fixed top-0 w-full flex items-center justify-between">
       <div className="flex items-center">
         <Image
           className="m-4"
@@ -50,7 +50,7 @@ const Navbar = () => {
           <Settings></Settings>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 
