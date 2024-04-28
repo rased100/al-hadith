@@ -2,14 +2,8 @@ import React from "react";
 import Image from "next/image";
 import search from "../../../public/search-icon.svg";
 import logo from "../../../public/logo.png";
-import support from "../../../public/support.svg";
-
 import SupportBtn from "./SupportBtn";
 import Settings from "./Settings";
-
-// const logo = "/public/icons/home-logo.png";
-// const supportIcon = "/public/icons/helping-hand.svg";
-// const searchIcon = "/public/icons/search.svg";
 
 const Navbar = () => {
   return (
@@ -19,12 +13,12 @@ const Navbar = () => {
           className="m-4"
           src={logo}
           alt="ihadith logo"
-          width={50}
-          height={50}
+          width={45}
+          height={45}
         />
         <div>
-          <h3 className="text-2xl font-bold">হাদিস সমূহ</h3>
-          <p>হাদিস পড়ুন শিখুন এবং জানুন</p>
+          <h3 className="text-md text-gray-800 font-bold">হাদিস সমূহ</h3>
+          <p className="text-sm text-gray-800">হাদিস পড়ুন শিখুন এবং জানুন</p>
         </div>
       </div>
       <div className="flex justify-center items-center gap-3 lg:gap-14 ">

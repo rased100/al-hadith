@@ -15,7 +15,7 @@ const Settings = () => {
   return (
     <div className="text-gray-800">
       <button onClick={handleAppDrawer} className="pt-2 px-2 2xl:hidden">
-        <Image src={setting} alt="setting-icon" width={27} height={27} />
+        <Image src={setting} alt="setting-icon" width={25} height={25} />
       </button>
 
       <div
