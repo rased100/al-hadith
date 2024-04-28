@@ -45,7 +45,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className="bg-green-500 text-white rounded-md mr-4">
+        <div className="bg-[#45ac85] text-white rounded-md mr-4">
           <SupportBtn />
           <Settings></Settings>
         </div>
